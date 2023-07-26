@@ -1,12 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import logo from '../assets/png/logo.png'
-import instagram from '../assets/png/instagram.png'
-import telegram from '../assets/png/telegram.png'
-import whatsapp from '../assets/png/whatsapp.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-import { Cross, MenuIcon } from './Icon'
+import { Cross, Instagram, MenuIcon, Telegram, Whatsapp } from './Icon'
 
 const Header = () => {
     const [menu, setMenu] = useState(false);
@@ -53,10 +50,10 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <ul className='d-sm-flex d-none align-items-center gap-3'>
-                        <li><Link to="https://www.instagram.com/" target='_'><img className='w-30px' src={instagram} alt="" /></Link></li>
-                        <li><Link to="https://www.telegram.com/" target='_'><img className='w-30px' src={telegram} alt="" /></Link></li>
-                        <li><Link to="https://www.whatsapp.com/" target='_'><img className='w-30px' src={whatsapp} alt="" /></Link></li>
+                    <ul className='d-sm-flex d-none align-items-center gap-4'>
+                        <li><Link to="https://www.instagram.com/" target='_'><Instagram /></Link></li>
+                        <li><Link to="https://www.telegram.com/" target='_'><Telegram /></Link></li>
+                        <li><Link to="https://www.whatsapp.com/" target='_'><Whatsapp /></Link></li>
                     </ul>
                     <div className='d-lg-none'>
                         <Link onClick={() => setMenu(true)}>
