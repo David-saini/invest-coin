@@ -151,8 +151,6 @@
 .whatsapp {
     fill: white;
     border: 1px solid transparent;
-    width: 35px;
-    height: 35px;
 }
 
 .whatsapp:hover {
@@ -163,18 +161,30 @@
 }
 
 .telegram {
-    fill: white;
-    height: 47px;
-    width: 39px;
-    padding: 5px;
-    border-radius: 56%;
     transition: all 100ms linear;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+}
+
+.telegram svg {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .telegram:hover {
     border: 1px solid #0088cc;
     background-color: #0088cc;
 }
+
+.tele {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .w-150px {
     max-width: 130px;
