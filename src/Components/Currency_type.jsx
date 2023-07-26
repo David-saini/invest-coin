@@ -15,43 +15,43 @@ const Currency_type = () => {
                     <p className='max-976px'>Наш проект работает только с проверенными площадками для инвестиций, чтобы максимально снизить риски.</p>
                 </div>
 
-                <Container className='py-5 timeline-1' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear">
-                    <div className='slider-container'>
+                <Container className='timeline-1' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear">
+                    <div className='py-5 slider-container'>
                         <div className='d-flex align-items-center justify-content-between slider pt-4'>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={bitcoin} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={litecoin} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={tezos} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={etherium} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={chainlink} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={ton} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={bitcoin} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={litecoin} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={tezos} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={etherium} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={chainlink} alt="" />
                             </div>
-                            <div>
+                            <div className=''>
                                 <img className='w-150px' src={ton} alt="" />
                             </div>
                         </div>

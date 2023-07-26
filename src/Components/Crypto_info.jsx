@@ -51,7 +51,7 @@ const Crypto_info = () => {
 
                 <Row className='pt-5 align-items-center justify-content-center'>
                     <Col md={3} sm={6} className='d-flex align-items-center justify-content-center' data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear" >
-                        <div>
+                        <div className='box'>
                             <div className=' d-flex align-items-center justify-content-center'>
                                 <img src={calender} alt="" />
                             </div>
@@ -68,7 +68,7 @@ const Crypto_info = () => {
                     </Col>
 
                     <Col md={3} sm={6} className='d-flex align-items-center justify-content-center pt-5 pt-sm-0' data-aos="flip-down" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear" >
-                        <div>
+                        <div className='box'>
                             <div className=' d-flex align-items-center justify-content-center'>
                                 <img src={timer} alt="" />
                             </div>
@@ -85,7 +85,7 @@ const Crypto_info = () => {
                     </Col>
 
                     <Col md={3} className='d-flex align-items-center justify-content-center pt-5 pt-md-0' data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="linear" >
-                        <div>
+                        <div className='box'>
                             <div className=' d-flex align-items-center justify-content-center'>
                                 <img src={wallet} alt="" />
                             </div>
